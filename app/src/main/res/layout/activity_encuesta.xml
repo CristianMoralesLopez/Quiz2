@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pregunta 1"
+            android:id="@+id/lblPregunta1"/>
+
+
+        <RadioGroup
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button2"
+            android:layout_gravity="center_horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pizza"
+                android:id="@+id/P1radioButton1"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hamburguesa"
+                android:id="@+id/P1radioButton2"
+                android:layout_below="@+id/radioButton"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chino"
+                android:id="@+id/P1radioButton3"
+                android:layout_below="@+id/radioButton2"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mexicano "
+                android:id="@+id/P1radioButton4"
+                android:layout_below="@+id/radioButton3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+
+
+        </RadioGroup>
+
+        <!-- Pregunta No. 2-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pregunta 1"
+            android:id="@+id/lblPregunta2"/>
+
+
+        <RadioGroup
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button2"
+            android:layout_gravity="center_horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pizza"
+                android:id="@+id/P2radioButton1"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hamburguesa"
+                android:id="@+id/P2radioButton2"
+                android:layout_below="@+id/radioButton"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chino"
+                android:id="@+id/P2radioButton3"
+                android:layout_below="@+id/radioButton2"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mexicano "
+                android:id="@+id/P2radioButton4"
+                android:layout_below="@+id/radioButton3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+
+
+        </RadioGroup>
+
+        <!-- Pregunta No. 3-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pregunta 1"
+            android:id="@+id/lblPregunta3"/>
+
+
+        <RadioGroup
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button2"
+            android:layout_gravity="center_horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pizza"
+                android:id="@+id/P3radioButton1"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hamburguesa"
+                android:id="@+id/P3radioButton2"
+                android:layout_below="@+id/radioButton"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chino"
+                android:id="@+id/P3radioButton3"
+                android:layout_below="@+id/radioButton2"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mexicano "
+                android:id="@+id/P3radioButton4"
+                android:layout_below="@+id/radioButton3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+
+
+        </RadioGroup>
+
+        <!-- Pregunta No. 4-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pregunta 1"
+            android:id="@+id/lblPregunta4"/>
+
+
+        <RadioGroup
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button2"
+            android:layout_gravity="center_horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pizza"
+                android:id="@+id/P4radioButton1"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hamburguesa"
+                android:id="@+id/P4radioButton2"
+                android:layout_below="@+id/radioButton"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chino"
+                android:id="@+id/P4radioButton3"
+                android:layout_below="@+id/radioButton2"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mexicano "
+                android:id="@+id/P4radioButton4"
+                android:layout_below="@+id/radioButton3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+
+
+        </RadioGroup>
+
+        <!-- Pregunta No. 5-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pregunta 1"
+            android:id="@+id/lblPregunta5"/>
+
+
+        <RadioGroup
+            android:id="@+id/radio5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button2"
+            android:layout_gravity="center_horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pizza"
+                android:id="@+id/P5radioButton1"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hamburguesa"
+                android:id="@+id/P5radioButton2"
+                android:layout_below="@+id/radioButton"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chino"
+                android:id="@+id/P5radioButton3"
+                android:layout_below="@+id/radioButton2"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mexicano "
+                android:id="@+id/P5radioButton4"
+                android:layout_below="@+id/radioButton3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+
+
+        </RadioGroup>
+
+        <!-- Button-->
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar Encuesta"
+            android:id="@+id/btnEnviarEncuesta"
+            android:layout_marginTop="10dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

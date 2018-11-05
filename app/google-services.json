@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "885852932569",
+    "firebase_url": "https://prueba-ed1d4.firebaseio.com",
+    "project_id": "prueba-ed1d4",
+    "storage_bucket": "prueba-ed1d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885852932569:android:8a53251591b3f6f1",
+        "android_client_info": {
+          "package_name": "com.cristian.quiz2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885852932569-h8kog5ajgdp7eh2hr1elfliogt3ef8qo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cristian.quiz2",
+            "certificate_hash": "cba6c928e88be76299fc8104b02ec250e0d76c40"
+          }
+        },
+        {
+          "client_id": "885852932569-1bk8dg0ipja4tng9brof925do2ogn009.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARz0ai1rM8-al9KxG4wTFZ2Q8b52yCLxs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885852932569-1bk8dg0ipja4tng9brof925do2ogn009.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885852932569:android:d129fdd748895ec5",
+        "android_client_info": {
+          "package_name": "com.cristian.quiz2cristianmorales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885852932569-ffq383fhfe6s2c9ct8ae3fdii500e82m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cristian.quiz2cristianmorales",
+            "certificate_hash": "cba6c928e88be76299fc8104b02ec250e0d76c40"
+          }
+        },
+        {
+          "client_id": "885852932569-1bk8dg0ipja4tng9brof925do2ogn009.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARz0ai1rM8-al9KxG4wTFZ2Q8b52yCLxs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885852932569-1bk8dg0ipja4tng9brof925do2ogn009.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885852932569:android:13acda588c2f63e4",
+        "android_client_info": {
+          "package_name": "com.cristian.quizpractico2cristianmorales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885852932569-ct0af7st331t8trg3eijgi2bcnluisnu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cristian.quizpractico2cristianmorales",
+            "certificate_hash": "cba6c928e88be76299fc8104b02ec250e0d76c40"
+          }
+        },
+        {
+          "client_id": "885852932569-1bk8dg0ipja4tng9brof925do2ogn009.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARz0ai1rM8-al9KxG4wTFZ2Q8b52yCLxs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885852932569-1bk8dg0ipja4tng9brof925do2ogn009.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
