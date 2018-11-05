@@ -11,7 +11,7 @@ public class Encuesta extends AppCompatActivity {
     private RadioGroup[] groups;
     private RadioButton[] radioButtons;
     private TextView[]  labels;
-    private String [] respuestas2;
+    private String [] respuestas;
 
 
     protected void onCreate(Bundle savedInstanceState) {
