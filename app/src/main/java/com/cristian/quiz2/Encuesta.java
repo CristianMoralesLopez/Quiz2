@@ -30,6 +30,8 @@ public class Encuesta extends AppCompatActivity {
 
         db = FirebaseDatabase.getInstance();
 
+        // inicializacion de los componentes gtraficos y logicos
+
 
         groups = new RadioGroup[5];
         radioButtons = new RadioButton[20];
@@ -64,17 +66,30 @@ public class Encuesta extends AppCompatActivity {
         radioButtons[18] = findViewById(R.id.P5radioButton3);
         radioButtons[19] = findViewById(R.id.P5radioButton4);
 
+        // etiquetas para las preguntas
+
         labels[0] = findViewById(R.id.lblPregunta1);
         labels[1] = findViewById(R.id.lblPregunta2);
         labels[2] = findViewById(R.id.lblPregunta3);
         labels[3] = findViewById(R.id.lblPregunta4);
         labels[4] = findViewById(R.id.lblPregunta5);
 
+
+
+        // boton para el envio de las respuestas
+
         btnEnviarEncuesta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 int j = 0;
                 int cuantos = 0;
+
+                /*
+                este for cuenta la cantidad de radiobuttons que han sido checkeados con el fin de validar que todas las respuestas esten seleccionados
+                ademas agrega las respuestas seleccionados a un arreglo de String
+                 */
+
+
                 for (int i = 0; i < radioButtons.length; i++) {
 
 
@@ -91,12 +106,22 @@ public class Encuesta extends AppCompatActivity {
                     }
                 }
 
+
+                /* si todas las respuestas fueron marcadas entonces se ingresa a este if
+
+                 */
+
                 if (cuantos == 5) {
 
                     Toast.makeText(Encuesta.this, "Correcto", Toast.LENGTH_SHORT).show();
 
 
                     int[] opciones = new int[5];
+
+
+                    /*
+                    este if verifica la respuesta para subirla a la base de datos
+                     */
 
 
                     for (int i = 0; i < opciones.length; i++) {
@@ -120,6 +145,10 @@ public class Encuesta extends AppCompatActivity {
 
 
                     }
+
+                    /*
+                    for para enviar la respuestas a la base de datos
+                     */
 
 
                     for(int i= 0; i<5;i++){
