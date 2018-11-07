@@ -33,7 +33,8 @@ public class Principal extends AppCompatActivity {
         btnEstadisticas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Principal.this,Estadisticas.class);
+                Intent i = new Intent(Principal.this,Estadistica.class);
+                startActivity(i);
             }
         });
 
