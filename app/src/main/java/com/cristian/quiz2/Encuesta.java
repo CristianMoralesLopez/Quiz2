@@ -103,6 +103,9 @@ public class Encuesta extends AppCompatActivity {
 
                         cuantos++;
 
+                        respuestas[j]= radioButtons[i].getText().toString();
+                        j++;
+
                     }
                 }
 
