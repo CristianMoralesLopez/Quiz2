@@ -104,7 +104,6 @@ public class Encuesta extends AppCompatActivity {
 
                         respuestas[j] = radioButtons[i].getText().toString();
 
-                        labels[j].setText(radioButtons[i].getText().toString());
                         j++;
 
                         cuantos++;
@@ -169,6 +168,7 @@ public class Encuesta extends AppCompatActivity {
                     Intent i = new Intent(Encuesta.this,Principal.class);
 
                     startActivity(i);
+                    finish();
 
 
                 } else {
