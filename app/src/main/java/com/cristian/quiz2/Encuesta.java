@@ -172,24 +172,7 @@ public class Encuesta extends AppCompatActivity {
 
 
                 } else {
-                   //  Toast.makeText(Encuesta.this, "incorrecto", Toast.LENGTH_SHORT).show();
-
-                    DatabaseReference reference = db.getReference().child("Pregunta 1").child("opcion 1");
-
-                    reference.addListenerForSingleValueEvent(new ValueEventListener() {
-                        @Override
-                        public void onDataChange(DataSnapshot dataSnapshot) {
-
-                            HashMap<String,String> hashMap = (HashMap<String, String>) dataSnapshot.getValue();
-
-                            Toast.makeText(Encuesta.this,""+ hashMap.size(),Toast.LENGTH_SHORT).show();
-                        }
-
-                        @Override
-                        public void onCancelled(DatabaseError databaseError) {
-
-                        }
-                    });
+                    Toast.makeText(Encuesta.this, "incorrecto", Toast.LENGTH_SHORT).show();
 
 
 
