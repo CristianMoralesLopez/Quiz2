@@ -170,7 +170,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="a. Pizza"
+                android:text="a. De $100000 a $500000"
                 android:id="@+id/P3radioButton1"
                 android:layout_marginTop="20dp"
                 android:layout_alignParentTop="true"
@@ -181,7 +181,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="b. Hamburguesa"
+                android:text="b. De $500000 a $1000000"
                 android:id="@+id/P3radioButton2"
                 android:layout_below="@+id/radioButton"
                 android:layout_centerHorizontal="true"
@@ -191,7 +191,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="c. Chino"
+                android:text="c. Más de $1000000"
                 android:id="@+id/P3radioButton3"
                 android:layout_below="@+id/radioButton2"
                 android:layout_centerHorizontal="true"
@@ -201,7 +201,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="d. Mexicano "
+                android:text="d. No me interesa "
                 android:id="@+id/P3radioButton4"
                 android:layout_below="@+id/radioButton3"
                 android:layout_centerHorizontal="true"
@@ -217,9 +217,15 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pregunta 1"
+            android:text="Pregunta 4"
             android:id="@+id/lblPregunta4"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Tiene conocimiento sobre la modalidad de inversión Crowdfunding?"
+            android:textColor="#000"
+            android:id="@+id/lbldescripcionPregu"/>
 
         <RadioGroup
             android:id="@+id/radio4"
@@ -231,7 +237,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="a. Pizza"
+                android:text="a. La he escuchado"
                 android:id="@+id/P4radioButton1"
                 android:layout_marginTop="20dp"
                 android:layout_alignParentTop="true"
@@ -242,7 +248,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="b. Hamburguesa"
+                android:text="b. Si tengo conocimiento"
                 android:id="@+id/P4radioButton2"
                 android:layout_below="@+id/radioButton"
                 android:layout_centerHorizontal="true"
@@ -252,7 +258,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="c. Chino"
+                android:text="c. No se que es"
                 android:id="@+id/P4radioButton3"
                 android:layout_below="@+id/radioButton2"
                 android:layout_centerHorizontal="true"
@@ -262,7 +268,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="d. Mexicano "
+                android:text="d. No me interesa conocerla"
                 android:id="@+id/P4radioButton4"
                 android:layout_below="@+id/radioButton3"
                 android:layout_centerHorizontal="true"
@@ -277,10 +283,15 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pregunta 1"
+            android:text="Pregunta 5"
             android:id="@+id/lblPregunta5"/>
 
-
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Actualmente tiene algún proyecto agrícola?"
+            android:textColor="#000"
+            android:id="@+id/lbldescripcionPre"/>
         <RadioGroup
             android:id="@+id/radio5"
             android:layout_width="wrap_content"
@@ -291,7 +302,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="a. Pizza"
+                android:text="a. Sí"
                 android:id="@+id/P5radioButton1"
                 android:layout_marginTop="20dp"
                 android:layout_alignParentTop="true"
@@ -302,7 +313,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="b. Hamburguesa"
+                android:text="b. No, pero me gustaría emprender"
                 android:id="@+id/P5radioButton2"
                 android:layout_below="@+id/radioButton"
                 android:layout_centerHorizontal="true"
@@ -312,7 +323,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="c. Chino"
+                android:text="c. Tengo familiares que sí"
                 android:id="@+id/P5radioButton3"
                 android:layout_below="@+id/radioButton2"
                 android:layout_centerHorizontal="true"
@@ -322,7 +333,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="d. Mexicano "
+                android:text="d. No me interesa"
                 android:id="@+id/P5radioButton4"
                 android:layout_below="@+id/radioButton3"
                 android:layout_centerHorizontal="true"
