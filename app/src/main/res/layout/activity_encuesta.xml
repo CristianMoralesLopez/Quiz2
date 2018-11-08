@@ -1,96 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/backg">
 
     <LinearLayout
-
-          xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pregunta 1"
-            android:id="@+id/lblPregunta1"/>
-        <TextView
-            android:layout_width="match_parent"
+            android:text="ENCUESTA"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="320dp"
             android:layout_height="wrap_content"
-            android:text="¿Pertenece usted al sector agricola?"
-            android:textColor="#000"
-            android:id="@+id/lbldescripcionPregunta1"/>
+            android:orientation="vertical"
+            android:background="@drawable/forma_edit_text"
+            android:padding="20dp"
+            android:layout_marginTop="30dp">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pregunta 1"
+                android:id="@+id/lblPregunta1"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿Pertenece usted al sector agricola?"
+                android:textColor="#000000"
+                android:id="@+id/lbldescripcionPregunta1"/>
 
-
-        <RadioGroup
-            android:id="@+id/radio1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/button2"
-            android:layout_gravity="center_horizontal">
-
-            <RadioButton
+            <RadioGroup
+                android:id="@+id/radio1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="a. Sí pertenezco"
-                android:id="@+id/P1radioButton1"
-                android:layout_marginTop="20dp"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:checked="false"
-                />
+                android:layout_alignEnd="@+id/button2"
+                android:layout_gravity="center_horizontal">
 
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="b. Tengo vinculos con el campo"
-                android:id="@+id/P1radioButton2"
-                android:layout_below="@+id/radioButton"
-                android:layout_centerHorizontal="true"
-                android:checked="false"
-                />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a. Sí pertenezco"
+                    android:id="@+id/P1radioButton1"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:checked="false"
+                    />
 
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="c. Me interesa pertenecer"
-                android:id="@+id/P1radioButton3"
-                android:layout_below="@+id/radioButton2"
-                android:layout_centerHorizontal="true"
-                android:checked="false"
-                />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="b. Tengo vinculos con el campo"
+                    android:id="@+id/P1radioButton2"
+                    android:layout_below="@+id/radioButton"
+                    android:layout_centerHorizontal="true"
+                    android:checked="false"
+                    />
 
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="d. Definitivamente no "
-                android:id="@+id/P1radioButton4"
-                android:layout_below="@+id/radioButton3"
-                android:layout_centerHorizontal="true"
-                android:checked="false"
-                />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c. Me interesa pertenecer"
+                    android:id="@+id/P1radioButton3"
+                    android:layout_below="@+id/radioButton2"
+                    android:layout_centerHorizontal="true"
+                    android:checked="false"
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="d. Definitivamente no "
+                    android:id="@+id/P1radioButton4"
+                    android:layout_below="@+id/radioButton3"
+                    android:layout_centerHorizontal="true"
+                    android:checked="false"
+                    />
 
 
+            </RadioGroup>
 
-        </RadioGroup>
+        </LinearLayout>
+
 
         <!-- Pregunta No. 2-->
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/forma_edit_text"
+        android:padding="20dp"
+        android:layout_marginTop="30dp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Pregunta 2"
-            android:id="@+id/lblPregunta2"/>
+            android:id="@+id/lblPregunta2"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="¿Pertenece usted al sector financiero?"
-            android:textColor="#000"
+            android:textColor="#000000"
             android:id="@+id/lbldescripcionPregunt"/>
 
         <RadioGroup
@@ -141,23 +179,39 @@
                 android:checked="false"
                 />
 
-
-
         </RadioGroup>
 
+    </LinearLayout>
+
+
+
         <!-- Pregunta No. 3-->
+
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/forma_edit_text"
+        android:padding="20dp"
+        android:layout_marginTop="30dp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Pregunta 3"
-            android:id="@+id/lblPregunta3"/>
+            android:id="@+id/lblPregunta3"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="¿Cuánto está dispuesto a invertir en un proyecto agrícola ?"
-            android:textColor="#000"
+            android:textColor="#000000"
             android:id="@+id/lbldescripcionPregun"/>
 
         <RadioGroup
@@ -212,19 +266,36 @@
 
         </RadioGroup>
 
+
+    </LinearLayout>
+
+
         <!-- Pregunta No. 4-->
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/forma_edit_text"
+        android:padding="20dp"
+        android:layout_marginTop="30dp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Pregunta 4"
-            android:id="@+id/lblPregunta4"/>
+            android:id="@+id/lblPregunta4"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="¿Tiene conocimiento sobre la modalidad de inversión Crowdfunding?"
-            android:textColor="#000"
+            android:textColor="#000000"
             android:id="@+id/lbldescripcionPregu"/>
 
         <RadioGroup
@@ -279,18 +350,38 @@
 
         </RadioGroup>
 
+    </LinearLayout>
+
+
+
         <!-- Pregunta No. 5-->
+
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/forma_edit_text"
+        android:padding="20dp"
+        android:layout_marginTop="30dp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Pregunta 5"
-            android:id="@+id/lblPregunta5"/>
+            android:id="@+id/lblPregunta5"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"/>
+
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="¿Actualmente tiene algún proyecto agrícola?"
-            android:textColor="#000"
+            android:textColor="#000000"
             android:id="@+id/lbldescripcionPre"/>
         <RadioGroup
             android:id="@+id/radio5"
@@ -344,6 +435,11 @@
 
         </RadioGroup>
 
+
+    </LinearLayout>
+
+
+
         <!-- Button-->
 
         <Button
@@ -351,7 +447,11 @@
             android:layout_height="wrap_content"
             android:text="Enviar Encuesta"
             android:id="@+id/btnEnviarEncuesta"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"/>
 
 
 
