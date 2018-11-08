@@ -101,12 +101,6 @@ public class Encuesta extends AppCompatActivity {
 
                     if (radioButtons[i].isChecked()) {
 
-
-                        respuestas[j] = radioButtons[i].getText().toString();
-
-                        labels[j].setText(radioButtons[i].getText().toString());
-                        j++;
-
                         cuantos++;
 
                     }

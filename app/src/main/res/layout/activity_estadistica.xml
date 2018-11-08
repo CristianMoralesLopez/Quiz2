@@ -1,153 +1,327 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-<LinearLayout
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pregunta 1"
+            android:id="@+id/ElblPregunta1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Pertenece usted al sector agricola?"
+            android:textColor="#000"
+            android:id="@+id/ElbldescripcionPregunta1"/>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a. Sí pertenezco"
+                android:id="@+id/LP1radioButton1"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b. Tengo vinculos con el campo"
+                android:id="@+id/LP1radioButton2"
+                android:layout_below="@+id/radioButton"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c. Me interesa pertenecer"
+                android:id="@+id/LP1radioButton3"
+                android:layout_below="@+id/radioButton2"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="d. Definitivamente no "
+                android:id="@+id/LP1radioButton4"
+                android:layout_below="@+id/radioButton3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+
+
+
+
+        <!-- Pregunta No. 2-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pregunta 2"
+            android:id="@+id/ElblPregunta2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Pertenece usted al sector financiero?"
+            android:textColor="#000"
+            android:id="@+id/ElbldescripcionPregunt"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a. Sí pertenezco"
+                android:id="@+id/LP2radioButton1"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b. Tengo vínculos con las finanzas"
+                android:id="@+id/LP2radioButton2"
+                android:layout_below="@+id/radioButton"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c. Me interesa pertencer"
+                android:id="@+id/LP2radioButton3"
+                android:layout_below="@+id/radioButton2"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="d. Definitivamente no "
+                android:id="@+id/LP2radioButton4"
+                android:layout_below="@+id/radioButton3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+
+
+
+
+        <!-- Pregunta No. 3-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pregunta 3"
+            android:id="@+id/ElblPregunta3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Cuánto está dispuesto a invertir en un proyecto agrícola ?"
+            android:textColor="#000"
+            android:id="@+id/ElbldescripcionPregun"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a. De $100000 a $500000"
+                android:id="@+id/LP3radioButton1"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b. De $500000 a $1000000"
+                android:id="@+id/LP3radioButton2"
+                android:layout_below="@+id/radioButton"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c. Más de $1000000"
+                android:id="@+id/LP3radioButton3"
+                android:layout_below="@+id/radioButton2"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="d. No me interesa "
+                android:id="@+id/LP3radioButton4"
+                android:layout_below="@+id/radioButton3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+
+
+
+
+        <!-- Pregunta No. 4-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pregunta 4"
+            android:id="@+id/lblPregunta4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Tiene conocimiento sobre la modalidad de inversión Crowdfunding?"
+            android:textColor="#000"
+            android:id="@+id/lbldescripcionPregu"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a. La he escuchado"
+                android:id="@+id/LP4radioButton1"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b. Si tengo conocimiento"
+                android:id="@+id/LP4radioButton2"
+                android:layout_below="@+id/radioButton"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c. No se que es"
+                android:id="@+id/LP4radioButton3"
+                android:layout_below="@+id/radioButton2"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="d. No me interesa conocerla"
+                android:id="@+id/LP4radioButton4"
+                android:layout_below="@+id/radioButton3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+
+
+
+
+        <!-- Pregunta No. 5-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pregunta 5"
+            android:id="@+id/lblPregunta5"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Actualmente tiene algún proyecto agrícola?"
+            android:textColor="#000"
+            android:id="@+id/lbldescripcionPre"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a. Sí"
+                android:id="@+id/LP5radioButton1"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b. No, pero me gustaría emprender"
+                android:id="@+id/LP5radioButton2"
+                android:layout_below="@+id/radioButton"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c. Tengo familiares que sí"
+                android:id="@+id/LP5radioButton3"
+                android:layout_below="@+id/radioButton2"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="d. No me interesa"
+                android:id="@+id/LP5radioButton4"
+                android:layout_below="@+id/radioButton3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                />
+
+
+
+
+<Button
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label1"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label2"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label3"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label4"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label5"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label6"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label7"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label8"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label9"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label10"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label11"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label12"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label13"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label14"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label15"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label16"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label17"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label18"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label19"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label20"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label21"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label22"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label23"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label24"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/label25"/>
+    android:id="@+id/actualizar"
+    android:text="actualizar"/>
 
 
 
-
-
-
-
-
-
-
-</LinearLayout>
-
-
-
-
+    </LinearLayout>
 
 </ScrollView>
