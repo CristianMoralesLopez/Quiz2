@@ -7,7 +7,7 @@
 
     <LinearLayout
 
-        xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
@@ -17,6 +17,13 @@
             android:layout_height="wrap_content"
             android:text="Pregunta 1"
             android:id="@+id/lblPregunta1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Pertenece usted al sector agricola?"
+            android:textColor="#000"
+            android:id="@+id/lbldescripcionPregunta1"/>
+
 
 
         <RadioGroup
@@ -29,7 +36,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="a. Pizza"
+                android:text="a. Sí pertenezco"
                 android:id="@+id/P1radioButton1"
                 android:layout_marginTop="20dp"
                 android:layout_alignParentTop="true"
@@ -40,7 +47,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="b. Hamburguesa"
+                android:text="b. Tengo vinculos con el campo"
                 android:id="@+id/P1radioButton2"
                 android:layout_below="@+id/radioButton"
                 android:layout_centerHorizontal="true"
@@ -50,7 +57,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="c. Chino"
+                android:text="c. Me interesa pertenecer"
                 android:id="@+id/P1radioButton3"
                 android:layout_below="@+id/radioButton2"
                 android:layout_centerHorizontal="true"
@@ -60,7 +67,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="d. Mexicano "
+                android:text="d. Definitivamente no "
                 android:id="@+id/P1radioButton4"
                 android:layout_below="@+id/radioButton3"
                 android:layout_centerHorizontal="true"
@@ -79,6 +86,12 @@
             android:text="Pregunta 2"
             android:id="@+id/lblPregunta2"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Pertenece usted al sector financiero?"
+            android:textColor="#000"
+            android:id="@+id/lbldescripcionPregunt"/>
 
         <RadioGroup
             android:id="@+id/radio2"
@@ -90,7 +103,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="a. Pizza"
+                android:text="a. Sí pertenezco"
                 android:id="@+id/P2radioButton1"
                 android:layout_marginTop="20dp"
                 android:layout_alignParentTop="true"
@@ -101,7 +114,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="b. Hamburguesa"
+                android:text="b. Tengo vínculos con las finanzas"
                 android:id="@+id/P2radioButton2"
                 android:layout_below="@+id/radioButton"
                 android:layout_centerHorizontal="true"
@@ -111,7 +124,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="c. Chino"
+                android:text="c. Me interesa pertencer"
                 android:id="@+id/P2radioButton3"
                 android:layout_below="@+id/radioButton2"
                 android:layout_centerHorizontal="true"
@@ -121,7 +134,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="d. Mexicano "
+                android:text="d. Definitivamente no "
                 android:id="@+id/P2radioButton4"
                 android:layout_below="@+id/radioButton3"
                 android:layout_centerHorizontal="true"
@@ -137,9 +150,15 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pregunta 1"
+            android:text="Pregunta 3"
             android:id="@+id/lblPregunta3"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Cuánto está dispuesto a invertir en un proyecto agrícola ?"
+            android:textColor="#000"
+            android:id="@+id/lbldescripcionPregun"/>
 
         <RadioGroup
             android:id="@+id/radio3"
